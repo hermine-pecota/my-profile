@@ -1,0 +1,129 @@
+body
+{
+	background: #DAD9B6;
+	color: #333;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: 'Roboto Slab', serif;
+}
+
+h1,h2,h3
+{
+	font-family: 'Roboto Slab', serif;
+}
+
+h1
+{
+	color: #1a1a1a;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h2
+{
+	color: #E6B800;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+a
+{
+	color: #E6B800;
+	font-size: 20px;
+	font-weight: bold;
+	transition: color 0.3s ease;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #1a1a1a;
+}
+
+li
+{
+	display: inline-block;
+	padding: 20px;
+}
+
+i
+{
+	font-size: 60px;
+	color: #E6B800;
+}
+
+i:hover
+{
+	color: #1a1a1a;
+}
+
+.picture
+{
+	height: 220px;
+	padding: 30px;
+	position: relative;
+	vertical-align: middle;
+	border-radius: 50px;
+}
+
+#picture-of-me
+{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	width: 250px;
+	border-radius: 20px;
+}
+
+.card-white
+{
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+	padding: 40px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.btn-yellow
+{
+	background-color: #E6B800;
+	color: #1a1a1a;
+	padding: 15px 30px;
+	border-radius: 7px;
+	margin: 70px auto;
+}
+
+.btn-yellow:hover
+{
+	background-color: #1a1a1a;
+	color: #ffcc00;
+}
+
+.container
+{
+	max-width: 960px;
+	margin: 50px auto;
+}
+
+@media (max-width: 960px)
+{
+	.container
+	{
+		max-width: 720px;
+	}
+}
+
+@media (max-width: 720px)
+{
+	.container
+	{
+		max-width: 540px;
+	}
+}
+
+@media (max-width: 540px)
+{
+	.container
+	{
+		max-width: 320px;
+	}
+}
